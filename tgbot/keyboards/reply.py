@@ -1,7 +1,7 @@
 from aiogram.types import ReplyKeyboardMarkup, KeyboardButton
 
-b1 = KeyboardButton('working_mode')
-b2 = KeyboardButton('job_places')
+b1 = KeyboardButton('/working_mode')
+b2 = KeyboardButton('/job_places')
 b3 = KeyboardButton('Share Contact', request_contact=True)
 b4 = KeyboardButton('My Places', request_location=True)
 
